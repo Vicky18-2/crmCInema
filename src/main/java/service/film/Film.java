@@ -2,22 +2,21 @@
 package service.film;
 
 
-
+import service.genre.Genre;
 
 public class Film  {
 
+    protected int idFilm;
 
-    protected String title;
+    protected String filmName;
 
-    protected String director;
+    protected String filmDirector;
 
     protected String filmDuration;
 
-    protected String description12;
+    protected String filmDescription;
 
-    protected String language;
-
-    protected int id_film;
+    protected String filmYear;
 
     protected Genre genre;
 

@@ -2,9 +2,10 @@
 package service.genre;
 
 
+public class Genre {
 
-public enum Genre {
+    protected int idGenre;
 
-
+    protected String genreName;
 
 }
