@@ -15,4 +15,31 @@ public class Seat {
 
     @ManyToOne
     protected ColumnCinema columnCinema;
+
+    public int getIdSeat() {
+        return idSeat;
+    }
+
+    public void setIdSeat(int idSeat) {
+        this.idSeat = idSeat;
+    }
+
+    public float getSeatPrice() {
+        return seatPrice;
+    }
+
+    public void setSeatPrice(float seatPrice) {
+        this.seatPrice = seatPrice;
+    }
+
+    public ColumnCinema getColumnCinema() {
+        return columnCinema;
+    }
+
+    public void setColumnCinema(ColumnCinema columnCinema) {
+        this.columnCinema = columnCinema;
+    }
+
+    public Seat() {
+    }
 }

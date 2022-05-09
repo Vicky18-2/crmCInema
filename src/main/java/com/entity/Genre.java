@@ -15,4 +15,22 @@ public class Genre {
     @Column(length= 20, nullable = false)
     protected String genreName;
 
+    public int getIdGenre() {
+        return idGenre;
+    }
+
+    public void setIdGenre(int idGenre) {
+        this.idGenre = idGenre;
+    }
+
+    public String getGenreName() {
+        return genreName;
+    }
+
+    public void setGenreName(String genreName) {
+        this.genreName = genreName;
+    }
+
+    public Genre() {
+    }
 }

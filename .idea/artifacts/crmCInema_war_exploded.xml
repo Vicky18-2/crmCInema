@@ -50,7 +50,6 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-orm:5.3.19" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.19" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.3.19" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.19" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aspects:5.3.19" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-thymeleaf:2.6.7" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.6.7" />

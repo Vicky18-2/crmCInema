@@ -17,5 +17,31 @@ public class Hall {
     @ManyToOne
     protected Cinema cinema;
 
+    public int getIdHall() {
+        return idHall;
+    }
 
+    public void setIdHall(int idHall) {
+        this.idHall = idHall;
+    }
+
+    public String getHallName() {
+        return hallName;
+    }
+
+    public void setHallName(String hallName) {
+        this.hallName = hallName;
+    }
+
+    public Cinema getCinema() {
+        return cinema;
+    }
+
+    public void setCinema(Cinema cinema) {
+        this.cinema = cinema;
+    }
+
+    public Hall(){
+
+    }
 }
