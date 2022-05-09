@@ -1,14 +1,14 @@
 <component name="ArtifactManager">
-  <artifact type="war" name="crmCInema:war">
+  <artifact type="war" name="crmCinema:war">
     <output-path>$PROJECT_DIR$/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <module>crmCInema</module>
+        <module>crmCinema</module>
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="crmCInema-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="crmCInema:war exploded" />
+    <root id="archive" name="crmCinema-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="crmCinema:war exploded" />
     </root>
   </artifact>
 </component>

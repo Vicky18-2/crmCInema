@@ -6,11 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="crmCInema" />
+        <module name="crmCinema" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="crmCInema" target="1.8" />
+      <module name="crmCinema" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crmCinema" options="-parameters" />
+    </option>
   </component>
 </project>
